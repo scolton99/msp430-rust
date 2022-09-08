@@ -1,0 +1,13 @@
+[package]
+name = "msp430-emulator"
+version = "0.1.0"
+edition = "2021"
+authors = [
+    "Spencer Colton"
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+elf = "0.0.10"
+log4rs = { version = "1.1.1" }
